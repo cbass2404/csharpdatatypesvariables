@@ -31,7 +31,14 @@ namespace DataTypesAndVariables
             Console.WriteLine("The sum of " + num1  + " and " + num2 + " is " + sum);
             Console.WriteLine("The sum of " + d1 + " and " + d2 + " is " + sumD);
             Console.WriteLine("The sum of " + f1 + " and " + f2 + " is " + sumF);
-            Console.Read();
+            Console.Write("Enter a string and press enter");
+            string readInput = Console.ReadLine();
+            Console.WriteLine("You have entered {0}", readInput);
+
+            Console.Write("Enter a string and press enter :");
+            int asciiValue = Console.Read();
+            Console.WriteLine("ASCII value is {0}:", asciiValue);
+            Console.ReadKey();
         }
     }
 }

@@ -18,6 +18,16 @@ namespace DataTypesAndVariables
             float f2 = 1.337f;
             float sumF = f1 + f2;
 
+            string myname = "Cory";
+
+            string message = "My name is " + myname;
+
+            string capsMessage = message.ToUpper();
+
+            string lowerMessage = message.ToLower();
+
+            Console.WriteLine(capsMessage);
+            Console.WriteLine(lowerMessage);
             Console.WriteLine("The sum of " + num1  + " and " + num2 + " is " + sum);
             Console.WriteLine("The sum of " + d1 + " and " + d2 + " is " + sumD);
             Console.WriteLine("The sum of " + f1 + " and " + f2 + " is " + sumF);

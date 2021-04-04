@@ -35,7 +35,7 @@ namespace DataTypesAndVariables
             string readInput = Console.ReadLine();
             Console.WriteLine("You have entered {0}", readInput);
 
-            Console.Write("Enter a string and press enter :");
+            Console.Write("Press any key then press enter :");
             int asciiValue = Console.Read();
             Console.WriteLine("ASCII value is {0}:", asciiValue);
             Console.ReadKey();
